@@ -237,6 +237,132 @@
       margin-top: 10px;
       max-width: 100px;
     }
+
+    /* ===== RESPONSIVE MOBILE ===== */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        padding: 16px;
+        text-align: center;
+      }
+
+      .header-logo h1 {
+        font-size: 1.7rem;
+      }
+
+      .header-logo img.logo {
+        height: 48px;
+      }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+      }
+
+      nav a {
+        margin-left: 0;
+        padding: 8px 14px;
+        background-color: #e8e8e8;
+        border-radius: 20px;
+        font-size: 0.95rem;
+      }
+
+      .hero {
+        height: 60vh;
+        min-height: 320px;
+      }
+
+      .hero-content h2 {
+        font-size: 2rem;
+        padding: 0 16px;
+      }
+
+      .hero-content p {
+        font-size: 1rem;
+        padding: 0 20px;
+      }
+
+      .btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+      }
+
+      .about {
+        padding: 30px 16px;
+      }
+
+      .about h2 {
+        font-size: 1.6rem;
+      }
+
+      .about p {
+        font-size: 1rem;
+      }
+
+      .featured {
+        margin: 24px 0;
+      }
+
+      .social-section {
+        padding: 30px 16px;
+      }
+
+      .social-section h2 {
+        font-size: 1.6rem;
+      }
+
+      .instagram-btn {
+        padding: 14px 32px;
+        font-size: 1rem;
+        display: block;
+        max-width: 220px;
+        margin: 0 auto;
+      }
+
+      .contact {
+        padding: 30px 16px;
+      }
+
+      .contact h2 {
+        font-size: 1.6rem;
+      }
+
+      .contact form {
+        max-width: 100%;
+      }
+
+      /* Evita zoom automático en iOS al enfocar inputs */
+      .contact input,
+      .contact textarea {
+        font-size: 16px;
+      }
+
+      .contact p {
+        font-size: 1rem;
+      }
+
+      footer {
+        padding: 16px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .header-logo h1 {
+        font-size: 1.4rem;
+      }
+
+      .hero-content h2 {
+        font-size: 1.6rem;
+      }
+
+      .hero-content p {
+        font-size: 0.95rem;
+      }
+    }
   </style>
 </head>
 <body>
